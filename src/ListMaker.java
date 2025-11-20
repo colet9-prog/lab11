@@ -12,7 +12,7 @@ public class ListMaker {
 
         boolean done = false;
 
-        while (!done) {
+        do {
             System.out.println("\nCommand Options:");
             System.out.println("A – Add an item to the list");
             System.out.println("D – Delete an item from the list");
@@ -46,7 +46,7 @@ public class ListMaker {
             }
 
 
-        }
+        } while (!done);
         System.out.println("\n -*- Program Terminated. -*-");
     }
 
